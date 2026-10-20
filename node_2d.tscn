@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://fhoeujcpr1hy"]
+
+[ext_resource type="Script" uid="uid://ia07uhb2g0bm" path="res://node_2d.gd" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D" unique_id=1430368426]
+script = ExtResource("1_wtcfe")
+
+[node name="Palette" type="HBoxContainer" parent="." unique_id=100388453]
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 60.0
+offset_bottom = 60.0
+
+[node name="pink" type="Button" parent="Palette" unique_id=1860321825]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="purple" type="Button" parent="Palette" unique_id=949494627]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="blue" type="Button" parent="Palette" unique_id=1970608674]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="yello" type="Button" parent="Palette" unique_id=727123107]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
+
+[node name="eraser" type="Button" parent="Palette" unique_id=1404360588]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 2
